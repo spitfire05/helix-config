@@ -1,4 +1,7 @@
-theme = "dracula"
+theme = "nightfox"
+
+[editor]
+shell = ["nu", "-c"]
 
 [editor.indent-guides]
 render = true
