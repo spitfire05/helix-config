@@ -5,6 +5,9 @@ shell = ["nu", "-c"]
 color-modes = true
 bufferline = "multiple"
 
+[editor.file-picker]
+hidden = false
+
 [editor.indent-guides]
 render = true
 character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
