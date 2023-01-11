@@ -1,0 +1,19 @@
+# Author: spitfire05 <michael.borejszo@gmail.com>
+#
+# This theme is based on `base16_transparent`(Author: GreasySlug <9619abgoni@gmail.com>)
+#
+# It is functionally 95% identical to `base16_transparent`, but disables transparency
+# in few places to improve on readability.
+#
+# All puns intended :)
+
+inherits = "base16_transparent"
+
+"ui.virtual.indent-guide" = "gray"
+"ui.popup" = { fg = "white", bg = "black" }
+"info" = { fg = "light-blue", bg = "black" }
+"hint" = { fg = "light-gray", bg = "black" }
+"debug" = { fg = "light-gray", bg = "black" }
+"warning" = { fg = "light-yellow", bg = "black", modifiers = ["italic"] }
+"error" = { fg = "light-red", bg = "black" }
+
