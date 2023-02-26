@@ -9,6 +9,6 @@ bufferline = "multiple"
 hidden = false
 
 [editor.indent-guides]
-render = true
+render = false
 character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 1
