@@ -1,14 +1,10 @@
-theme = "base16_transchild"
+theme = "catppuccin_mocha"
 
 [editor]
-shell = ["nu", "-c"]
-color-modes = true
-bufferline = "multiple"
+end-of-line-diagnostics = "hint"
 
-[editor.file-picker]
-hidden = false
+[editor.inline-diagnostics]
+cursor-line = "warning" # show warnings and errors on the cursorline inline
 
-[editor.indent-guides]
-render = false
-character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
-skip-levels = 1
+[editor.lsp]
+display-inlay-hints = true
