@@ -1,5 +1,16 @@
 theme = "catppuccin_mocha"
 
+[keys.normal.space]
+# lazygit
+g = [
+  ":write-all",
+  ":new",
+  ":insert-output lazygit",
+  ":buffer-close!",
+  ":redraw",
+  ":reload-all"
+]
+
 [editor]
 end-of-line-diagnostics = "hint"
 line-number = "relative"
