@@ -1,6 +1,10 @@
 theme = "catppuccin_mocha"
 
 [keys.normal.space]
+q = ":q"
+Q = ":q!"
+x = ":bc"
+X = ":bc!"
 # lazygit
 g = [
   ":write-all",
