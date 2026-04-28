@@ -1,2 +1,10 @@
 [language-server.rust-analyzer]
 config = { check = { command = "clippy", extraArgs = ["--", "-Wclippy::pedantic"] } }
+
+[[language]]
+name = "markdown"
+language-servers = ["marksman", "ltex-ls-plus"]
+
+# TODO: those seem to have no effect on the LS..
+[language-server.ltex-ls-plus.config]
+ltex.dictionary = { "en-US" = ["filesystem"] }
